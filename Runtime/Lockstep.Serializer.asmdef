@@ -1,0 +1,16 @@
+{
+    "name": "Lockstep.Serializer",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b1ff32defd1f52f4aa3e78c4800b79b2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -17,32 +17,32 @@ The Package Manager is a work in progress for Unity. Because of that, your packa
   ├── CHANGELOG.md
   ├── Third Party Notices.md
   ├── Editor
-  │   ├── Qq5913532.LockstepMath.Editor.asmdef
+  │   ├── Qq5913532.LockstepSerializer.Editor.asmdef
   │   └── EditorExample.cs
   ├── Runtime
-  │   ├── Qq5913532.LockstepMath.asmdef
+  │   ├── Qq5913532.LockstepSerializer.asmdef
   │   └── RuntimeExample.cs
   ├── Tests
   │   ├── .tests.json
   │   ├── Editor
-  │   │   ├── Qq5913532.LockstepMath.Editor.Tests.asmdef
+  │   │   ├── Qq5913532.LockstepSerializer.Editor.Tests.asmdef
   │   │   └── EditorExampleTest.cs
   │   └── Runtime
-  │        ├── Qq5913532.LockstepMath.Tests.asmdef
+  │        ├── Qq5913532.LockstepSerializer.Tests.asmdef
   │        └── RuntimeExampleTest.cs
   ├── Samples
   │   └── Example
   │       ├── .sample.json
   │       └── SampleExample.cs
   └── Documentation
-       ├── Lockstep.Math.md
+       ├── Lockstep.Serializer.md
        └── Images
 ```
 
 ## Develop your package
 Package development works best within the Unity Editor.  Here's how to get started:
 
-1. Enter your package name. The name you choose should contain your default organization followed by the name you typed. For example: `Qq5913532.LockstepMath`.
+1. Enter your package name. The name you choose should contain your default organization followed by the name you typed. For example: `Qq5913532.LockstepSerializer`.
 
 2. [Enter the information](#FillOutFields) for your package in the `package.json` file.
 
@@ -71,7 +71,7 @@ Package development works best within the Unity Editor.  Here's how to get start
 
 You can either modify the package manifest (`package.json`) file directly in the Inspector or by using an external editor. 
 
-To use the Inspector, select the `package.json` file in the Project browser. The **Package Lockstep.Math Manifest** page opens for editing.
+To use the Inspector, select the `package.json` file in the Project browser. The **Package Lockstep.Serializer Manifest** page opens for editing.
 
 Update these required attributes in the `package.json` file: 
 
@@ -101,17 +101,17 @@ Use these conventions for naming and storing your assembly definition files to e
 
 * Store Editor-specific code under a root editor assembly definition file:
 
-  `Editor/Qq5913532.LockstepMath.Editor.asmdef`
+  `Editor/Qq5913532.LockstepSerializer.Editor.asmdef`
 
 * Store runtime-specific code under a root runtime assembly definition file:
 
-  `Runtime/Qq5913532.LockstepMath.asmdef`
+  `Runtime/Qq5913532.LockstepSerializer.asmdef`
 
 * Configure related test assemblies for your editor and runtime scripts:
 
-  `Tests/Editor/Qq5913532.LockstepMath.Editor.Tests.asmdef`
+  `Tests/Editor/Qq5913532.LockstepSerializer.Editor.Tests.asmdef`
 
-  `Tests/Runtime/Qq5913532.LockstepMath.Tests.asmdef`
+  `Tests/Runtime/Qq5913532.LockstepSerializer.Tests.asmdef`
 
 To get a more general view of a recommended package folder layout, see [Package layout](https://docs.unity3d.com/Manual/cus-layout.html).
 
@@ -120,7 +120,7 @@ To get a more general view of a recommended package folder layout, see [Package 
 <a name="Doc"></a>
 ### Providing documentation
 
-Use the `Documentations~/Lockstep.Math.md` documentation file to create preliminary, high-level documentation. This document should introduce users to the features and sample files included in your package.  Your package documentation files will be used to generate online and local docs, available from the Package Manager UI.
+Use the `Documentations~/Lockstep.Serializer.md` documentation file to create preliminary, high-level documentation. This document should introduce users to the features and sample files included in your package.  Your package documentation files will be used to generate online and local docs, available from the Package Manager UI.
 
 **Document your public APIs**
 * All public APIs need to be documented with **XmlDoc**.
@@ -227,4 +227,3 @@ License Type: "MyLicense"
 ```
 
 **NOTE**: Any URLs you use should point to a location that contains the reproduced license and the copyright information (if applicable).
-# Lockstep.Serializer
